@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Portfolio - FurniFly & CI/CD Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="butterflies">
+        <div class="butterfly" id="b1"></div>
+        <div class="butterfly" id="b2"></div>
+        <div class="butterfly" id="b3"></div>
+    </div>
+    
+    <section class="hero">
+        <img src="profile.jpg" alt="Your Profile" class="profile-img">
+        <h1>MCA Graduate | DevOps Engineer</h1>
+        <p>Building CI/CD pipelines, Flask apps like FurniFly e-commerce, and cloud deployments.</p>
+    </section>
+
+    <section class="about">
+        <h2>About This Project</h2>
+        <p>This portfolio demonstrates a full DevOps workflow: Flask backend, Docker containerization, docker-compose for multi-service setup, and Jenkins CI/CD pipeline. Special efforts include CSS butterfly animations with gradient glows (purple-pink transitions), smooth parallax scrolling, and responsive design for mobile. Transmission effects use keyframe floats and opacity fades for immersive UX.[memory:1][memory:3]</p>
+    </section>
+
+    <section class="tools">
+        <h2>Tools Used</h2>
+        <ul>
+            <li>Python/Flask - Backend web framework</li>
+            <li>Docker & docker-compose - Containerization & orchestration</li>
+            <li>Jenkins - CI/CD automation</li>
+            <li>HTML/CSS/JS - Butterfly animations & gradients</li>
+            <li>GitHub Actions (extendable) - Version control</li>
+        </ul>
+    </section>
+
+    <section class="comments">
+        <h2>Leave a Comment</h2>
+        <form id="commentForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <textarea id="comment" placeholder="Your Message..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="commentsList">
+            {% for comment in comments %}
+            <div class="comment">
+                <strong>{{ comment.name }}:</strong> {{ comment.comment }}
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
