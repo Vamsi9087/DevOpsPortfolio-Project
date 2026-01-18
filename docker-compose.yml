@@ -1,6 +1,4 @@
-version: "3.8"
-
-services:
+services:  # Remove version: "3.8" line completely
   web:
     build: .
     container_name: devops-portfolio
