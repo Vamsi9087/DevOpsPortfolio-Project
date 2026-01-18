@@ -25,6 +25,10 @@ The project demonstrates:
 
 ---
 
+
+<img width="1919" height="1143" alt="Screenshot 2026-01-18 213914" src="https://github.com/user-attachments/assets/0bf4efc8-04cb-4319-beee-c53c540ebb9a" />
+
+
 ## 🛠️ Tech Stack
 
 ### Backend
@@ -130,6 +134,7 @@ The Jenkins pipeline performs:
 * Build Docker Image
 * Smoke Test
 * Deploy
+<img width="1914" height="1090" alt="Screenshot 2026-01-18 213421" src="https://github.com/user-attachments/assets/223179e4-8eae-4e93-87b7-79472e067e98" />
 
 ---
 
@@ -155,14 +160,14 @@ This project simulates a **real DevOps workflow** and can be confidently showcas
 It demonstrates not just coding skills, but also **deployment, automation, and operational thinking**.
 
 ---
+Final Output :
+we can Expose this by using localhost:5000
 
-## 🚀 Future Enhancements
 
-* Add MySQL instead of SQLite
-* Deploy on AWS EC2
-* Add Nginx reverse proxy
-* Add automated unit tests
-* Add GitHub webhook integration
+<img width="1905" height="1086" alt="Screenshot 2026-01-18 213449" src="https://github.com/user-attachments/assets/ad7144c7-6dff-4174-9491-d4c67bf8cb2b" />
+
+
+
 
 ---
 
